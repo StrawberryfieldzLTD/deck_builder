@@ -1,0 +1,6 @@
+node_modules/
+.next/
+dist/git rm -r --cached node_modules
+git rm -r --cached .next
+git add .
+git commit -m "Remove node_modules from Git tracking"
